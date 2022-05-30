@@ -1,0 +1,22 @@
+:root {
+    --my-primary: #11998e;
+    --my-secondary: #38ef7d;
+    --my-white: #ffffff;
+    --my-gray: #9b9b9b;
+}
+
+.div_main {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: brown;
+    height: 90%;
+    width: 60%;
+}
+
+body {
+    background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
