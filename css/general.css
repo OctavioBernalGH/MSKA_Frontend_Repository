@@ -1,0 +1,17 @@
+:root{
+    --my-primary: #11998e;
+    --my-secondary: #38ef7d;
+    --my-white: #ffffff;
+    --my-gray: #9b9b9b;
+}
+.div_main{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: brown;
+    height: 90%;
+    width: 60%;
+}
+
+
