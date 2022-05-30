@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
 
 <head>
@@ -12,6 +14,7 @@
 
 <body class="bodyRegistro">
 
+
     <div class="container">
         <div class="row" id="cajitaRegistro" style="justify-content:center" ;>
 
@@ -19,43 +22,28 @@
                 <!-- <h2> Registro de Usuarios</h2>
                 <br> -->
                 <div class="form-group">
-                    <label>Nombre</label>
-                    <input type="text" name="nombre" class="form-control">
+                    <label>Población</label>
+                    <input type="text" name="poblacion" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label>Apellidos</label>
-                    <input type="text" name="apellidos" class="form-control">
+                    <label>País</label>
+                    <input type="text" name="pais" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" name="email" class="form-control">
+                    <label>Código Postal</label>
+                    <input type="text" name="cp" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label>Username</label>
-                    <input type="text" name="username" class="form-control">
+                    <label>Fecha de nacimiento</label>
+                    <input type="date" name="nacimiento" class="form-control">
                 </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" name="password" class="form-control">
-                </div>
-                <img id="flechas" src="../img/flechas.png" onclick="pasarPagina()">
-
         </div>
         <br><br>
-        <button type="button" class="btn btn-warning">¡Regístrame!</button>
-        <button type="button" class="btn btn-danger">Cancelar</button>
+        <button id="btn-registro" type="button" class="btn btn-warning">¡Regístrame!</button>
+        <button id="btn-cancelar-registro" type="button" class="btn btn-danger">Cancelar</button>
 
         </form>
-
     </div>
-
-    <script>
-        function pasarPagina() {
-
-            document.location.href = "Registro2.html";
-        }
-    </script>
-
 
 </body>
 
