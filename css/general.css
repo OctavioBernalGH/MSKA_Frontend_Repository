@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap%27');
+body {
+    font-family: 'Road Rage', cursive;
+    font-size: 20px;
+}
+
+.form-group {
+    width: 20%;
+}
+
 :root {
     --my-primary: #11998e;
     --my-secondary: #38ef7d;
@@ -15,8 +25,32 @@
     width: 60%;
 }
 
-body {
+.container {
+    margin-top: 2%;
+}
+
+.bodyRegistro {
+    background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2%;
+    margin-top: 30%;
+}
+
+#cajitaInicioSesion {
     background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png");
     background-repeat: no-repeat;
     background-size: 50%;
+}
+
+#flechas {
+    position: absolute;
+    z-index: 100;
+    height: 15%;
+    margin-left: 75%;
+}
+
+#btn-registro,
+#btn-cancelar-registro {
+    /* float: right; */
 }
