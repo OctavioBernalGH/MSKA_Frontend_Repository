@@ -11,36 +11,35 @@
     <title>My Skill Around</title>
 </head>
 
-<body class="bodySystemLogin">
-    
-            <img src="https://39975211.servicio-online.net/wp-content/uploads/2022/05/letras_mska.png" class = "img_title img-fluid" alt="MSKA_MY_SKILL_AROUND">
+<body class="bodySystemRegister">
+            <img src="https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_title.png" class = "img_title img-fluid" alt="MSKA_MY_SKILL_AROUND">
             <img src="https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png" class = "img_logo img-fluid" alt="MSKA_LOGO">
-            <!--Caja con login-->
-            <div class="row col-6" id="cajitaInicioSesion" style="justify-content:center" >
-                <form method="POST" action="index.php?control=ControlLogin&operacio=login">
-                    <br>
-                    <br>
-                    <h2> Iniciar sesión </h2>
-                    <div>
-                        <label>Usuario</label>
-                        <input type="text" name="nombre" class="form-control">
-                    </div>
-                    <div>
-                        <label>Password</label>
-                        <input type="password" name="nombre" class="form-control">
-                    </div>
-                 
-                    <div">
-                        <input type="checkbox" id="remember_me" name="_remember_me" checked />
-                        <label for="remember_me">Quiero mantener mi sesión iniciada</label> <br>
-                        <button type="submit" class="btn btn-primary">Entrar</button>
-                        <a href="html/Registro.html" id="registro"><p>¿Neófito? ¡Regístrate! :)</p></a>
-                    </div>
-            </div>
-            <!--Fin Caja con login-->
-            </form>
+            
+<!--Cajita incio-->
+<div class="row col-4" id="cajitaInicioSesion" style="justify-content:center" >
+    <form method="POST" action="index.php?control=ControlLogin&operacio=login">
+        <br>
+        <h2> Iniciar sesión </h2>
+        <div>
+            <label>Usuario</label>
+            <input type="text" name="nombre" class="form-control">
         </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="nombre" class="form-control">
+        </div>
+        <div>
+            <input type="checkbox" id="remember_me" name="_remember_me" checked />
+            <label for="remember_me">Quiero mantener mi sesión iniciada</label> <br>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+            <br>
+            <br>
+            <a href="html/Registro.html" id="registro"><p>¿Neófito? ¡Regístrate! :)</p></a>
+        </div>
+</div>
+</form>
+<!--Fin Cajita incio-->
+
 
 </body>
-
 </html>

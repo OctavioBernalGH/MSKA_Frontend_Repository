@@ -8,6 +8,7 @@ body {
 .form-group {
     width: 20%;
 }
+/*___________________________GENERAL_________________________________________*/
 /* Color variables Branding of project */
 :root {
     --my-primary: #F92423;
@@ -15,6 +16,54 @@ body {
     --my-secondary: #FEFF00;
     --my-secondary2: #E5A800;
 }
+/*___________________________INICIO_________________________________________*/
+.img_logo{
+    width: 40%;
+    height: 50%;
+    animation: scale_translate 0.7s linear forwards;
+    position: absolute;
+    top: 13%; left: 50%;
+}
+.img_title{
+    width: 40%;
+    height: 40%;
+    animation: scale_translate 0.7s linear forwards;
+    position: absolute;
+    top: 1%; left: 1%;
+}
+#cajitaInicioSesion {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-right: 55%;
+    margin-left: 5%;
+    background-color: #FEFF00;
+    border-radius: 2%;
+    border: 3px #E5A800;
+    border-style: solid;
+    padding: 0.5%;
+}
+.bodySystemLogin{
+    background-color: white;
+    background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin-bottom: 2%;
+    margin-top: 30%;
+}
+/*___________________________REGISTRO_________________________________________*/
+#cajitaRegistro{
+    
+    background-size: 50%;
+    margin-right: 55%;
+    margin-left: 1%;
+    background-color: #FEFF00;
+    border-radius: 2%;
+    border: 3px #E5A800;
+    border-style: solid;
+}
+
+
 .idImagen {
     background-image: url("paper.gif");
     position: absolute; 
@@ -44,22 +93,7 @@ body {
     background-size: 100%;
     
 }
-.img_logo{
-    width: 40%;
-    height: 50%;
-    animation: scale_translate 0.7s linear forwards;
-    position: absolute;
-    top: 13%; left: 50%;
-}
-.img_title{
-    width: 40%;
-    height: 40%;
-    animation: scale_translate 0.7s linear forwards;
-    position: absolute;
-    top: 1%; left: 1%;
-}
-
-.bodySystemLogin{
+.bodySystemRegister{
     background-color: white;
     background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");
     background-repeat: no-repeat;
@@ -68,15 +102,6 @@ body {
     margin-bottom: 2%;
     margin-top: 30%;
 }
-
-#cajitaInicioSesion {
-    /*background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png");*/
-    background-repeat: no-repeat;
-    background-size: 50%;
-    margin-right: 55%;
-    margin-left: 1%;
-}
-
 #flechas {
     position: absolute;
     z-index: 100;
@@ -89,7 +114,7 @@ body {
     /* float: right; */
 }
 
-/* Animations */
+/* _______________________________Animations_________________________________ */
 /*Logo entrance Escale and translate*/
   @keyframes scale_translate {
     0% {
@@ -108,10 +133,16 @@ body {
 
   /*_____________________TESTING_______________________________________________________*/
   .div_test1{
-      background-color: #cbe719;
+      background-color: #FEFF00;
+      border-radius: 2%;
+      border: 3px #E5A800;
+      border-style: solid;
       padding: 0%;
       margin: 0%;
   }
   .div_test2{
     background-color: #e2029c;
-}
+    }
+    .div_test2{
+        background-color: #480ceb;
+    }
