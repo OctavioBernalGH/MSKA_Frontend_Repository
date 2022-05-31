@@ -44,7 +44,7 @@ body {
     height: 60%;
     animation: slide 1s linear;
     position: absolute;
-    top: 5%; left: 30%;
+    top: 13%; left: 26%;
 }
 
 .bodyRegistro {
@@ -84,3 +84,11 @@ body {
       transform: translate(0%, 0%);
     }
   }
+
+  /*_____________________TESTING_______________________________________________________*/
+  .div_test1{
+      background-color: #cbe719;
+  }
+  .div_test2{
+    background-color: #e2029c;
+}

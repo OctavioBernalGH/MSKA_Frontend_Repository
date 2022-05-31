@@ -16,28 +16,27 @@
 
     <center>
         <div class="container">
-            <div class="row" id="cajitaInicioSesion" style="justify-content:center" ;>
-                
-                <img src="https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png" class = "img_logo" alt="MSKA_LOGO">
+            <img src="https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png" class = "img_logo" alt="MSKA_LOGO">
+            <div class="row col-6" id="cajitaInicioSesion" style="justify-content:center" >
                 
                 <form method="POST" action="index.php?control=ControlLogin&operacio=login">
-                    <h2> Iniciar sesión </h2>
                     <br>
-                    <div class="form-group">
-                        <label>Username</label>
-                        <input type="text" name="username" class="form-control">
+                    <br>
+                    <h2> Iniciar sesión </h2>
+                    <div>
+                        <label>Usuario</label>
+                        <input type="text" name="nombre" class="form-control">
                     </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" name="password" class="form-control">
+                    <div>
+                        <label>Usuario</label>
+                        <input type="password" name="nombre" class="form-control">
                     </div>
-                    <div class="form-group">
-
-
+                 
+                    <div">
                         <input type="checkbox" id="remember_me" name="_remember_me" checked />
                         <label for="remember_me">Quiero mantener mi sesión iniciada</label> <br><button type="submit" class="btn btn-primary">Entrar</button>
                     </div>
-                    <a href="html/Registro.html" id="registro">¿Es tu primera vez aquí? ¡Regístrate y vive la aventura! :)</a>
+                    <a href="html/Registro.html" id="registro">¿Neofito? ¡Regístrate y vive la aventura! :)</a>
 
             </div>
             <br><br>
