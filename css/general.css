@@ -51,12 +51,12 @@ body {
     background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
     margin-bottom: 2%;
     margin-top: 30%;
 }
 
 #cajitaInicioSesion {
-    
     /*background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png");*/
     background-repeat: no-repeat;
     background-size: 50%;
