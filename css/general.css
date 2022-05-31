@@ -2,6 +2,7 @@
 body {
     font-family: 'Road Rage', cursive;
     font-size: 20px;
+    padding: 0%;
 }
 
 .form-group {
@@ -13,9 +14,13 @@ body {
     --my-prymary2: #21A8F0;
     --my-secondary: #FEFF00;
     --my-secondary2: #E5A800;
-    --my-screenwidth: ;
-    --my-screenheight: ;
 }
+.idImagen {
+    background-image: url("paper.gif");
+    position: absolute; 
+    top: 0; 
+    left: 0;
+ }
 
 .div_main {
     margin-left: 20%;
@@ -40,26 +45,36 @@ body {
     
 }
 .img_logo{
-    width: 50%;
-    height: 60%;
-    animation: slide 1s linear;
+    width: 40%;
+    height: 50%;
+    animation: scale_translate 0.7s linear forwards;
     position: absolute;
-    top: 13%; left: 26%;
+    top: 13%; left: 50%;
+}
+.img_title{
+    width: 40%;
+    height: 40%;
+    animation: scale_translate 0.7s linear forwards;
+    position: absolute;
+    top: 1%; left: 1%;
 }
 
-.bodyRegistro {
+.bodySystemLogin{
+    background-color: white;
     background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
     margin-bottom: 2%;
     margin-top: 30%;
 }
 
 #cajitaInicioSesion {
-    
     /*background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png");*/
     background-repeat: no-repeat;
     background-size: 50%;
+    margin-right: 55%;
+    margin-left: 1%;
 }
 
 #flechas {
@@ -75,19 +90,27 @@ body {
 }
 
 /* Animations */
-/*Logo entrance */
-@keyframes slide {
-    from {
-      transform: translate(100%, 0%);
+/*Logo entrance Escale and translate*/
+  @keyframes scale_translate {
+    0% {
+        transform: translate(100%, 80%) scale(0);
     }
-    to {
-      transform: translate(0%, 0%);
+    34% {
+        transform: translate(67%, 60%) scale(0.3);
     }
-  }
+    67% {
+        transform: translate(34%, 40%) scale(0.6);
+   }
+   100% {
+        transform: translate(0%, 0%) scale(1);
+   }
+}
 
   /*_____________________TESTING_______________________________________________________*/
   .div_test1{
       background-color: #cbe719;
+      padding: 0%;
+      margin: 0%;
   }
   .div_test2{
     background-color: #e2029c;
