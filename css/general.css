@@ -41,8 +41,10 @@ body {
 }
 .img_logo{
     width: 50%;
-    height: 50%;
+    height: 60%;
     animation: slide 1s linear;
+    position: absolute;
+    top: 5%; left: 30%;
 }
 
 .bodyRegistro {
