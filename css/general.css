@@ -7,12 +7,14 @@ body {
 .form-group {
     width: 20%;
 }
-
+/* Color variables Branding of project */
 :root {
-    --my-primary: #11998e;
-    --my-secondary: #38ef7d;
-    --my-white: #ffffff;
-    --my-gray: #9b9b9b;
+    --my-primary: #F92423;
+    --my-prymary2: #21A8F0;
+    --my-secondary: #FEFF00;
+    --my-secondary2: #E5A800;
+    --my-screenwidth: ;
+    --my-screenheight: ;
 }
 
 .div_main {
@@ -27,6 +29,22 @@ body {
 
 .container {
     margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 100%;
+    
+    /*background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    
+}
+.img_logo{
+    width: 50%;
+    height: 60%;
+    animation: slide 1s linear;
+    position: absolute;
+    top: 13%; left: 26%;
 }
 
 .bodyRegistro {
@@ -38,7 +56,8 @@ body {
 }
 
 #cajitaInicioSesion {
-    background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png");
+    
+    /*background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/mska_logo_main.png");*/
     background-repeat: no-repeat;
     background-size: 50%;
 }
@@ -53,4 +72,23 @@ body {
 #btn-registro,
 #btn-cancelar-registro {
     /* float: right; */
+}
+
+/* Animations */
+/*Logo entrance */
+@keyframes slide {
+    from {
+      transform: translate(100%, 0%);
+    }
+    to {
+      transform: translate(0%, 0%);
+    }
+  }
+
+  /*_____________________TESTING_______________________________________________________*/
+  .div_test1{
+      background-color: #cbe719;
+  }
+  .div_test2{
+    background-color: #e2029c;
 }
