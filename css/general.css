@@ -189,5 +189,17 @@ body {
 #camara {
     position: relative;
     float: right;
-    margin-top: -100px;
+    margin-top: -30%;
+}
+
+
+/* Botones astronauta y cohete que están debajo de la foto de perfil */
+
+#botonesEspecificos {
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+#btnAstronauta {
+    margin-right: 10%;
 }
