@@ -22,6 +22,10 @@ body {
     --my-secondary2: #E5A800;
 }
 
+body {
+    background-image: url(../img/fondoMSKA.png);
+}
+
 
 /*___________________________INICIO_________________________________________*/
 
