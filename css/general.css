@@ -203,3 +203,11 @@ body {
 #btnAstronauta {
     margin-right: 10%;
 }
+
+
+/* Botón deshabilitado */
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
