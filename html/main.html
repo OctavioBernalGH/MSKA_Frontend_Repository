@@ -12,13 +12,13 @@
 
 <body>
     <div class="container">
-        <input type="text" class="input w-25" placeholder=" ¿A qué esperas? ¡Inspírate!" />
+        <input type="text" class="inputInspirate input" placeholder=" ¿A qué esperas? ¡Inspírate!" />
         <button class="btn btnPost btn-warning" id="btnPost">Postear</button>
         <br><br>
         <div class="row">
             <div class="col">
                 <!--Card-->
-                <div class="col-7 div_test1">
+                <div class="col-7 div_test1 w-50">
                     <div class="card">
                         <div class="card-header">
                             Uri
@@ -30,12 +30,14 @@
                                 quisquam cupiditate optio! Tempore, quasi totam.
                             </p>
                         </div>
-                        <button class="btn btn-primary">Seguir leyendo...</button>
                     </div>
+
                 </div>
+                <button class="btn btnSeguirLeyendo w-50 btn-warning">Seguir leyendo...</button>
+
                 <!--Fin Card-->
                 <!--Card-->
-                <div class="col-7 div_test1 mt-2">
+                <div class="col-7 div_test1 mt-2 w-50">
                     <div class="card">
                         <div class="card-header">
                             Uri2
@@ -47,6 +49,8 @@
                         </div>
                     </div>
                 </div>
+                <button class="btn btnSeguirLeyendo w-50 btn-warning">Seguir leyendo...</button>
+                <br><br>
                 <!--Fin Card-->
             </div>
 
@@ -54,6 +58,21 @@
 
             </div>
         </div>
+        <nav aria-label="...">
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <span class="page-link">Previous</span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active" aria-current="page">
+                    <span class="page-link">2</span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </body>
 

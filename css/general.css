@@ -155,11 +155,32 @@
             background-color: #480ceb;
         }
         /*____________________Principal - Main_____________________________- */
+        
+        body {
+            background-image: url("../img/fondoMSKA.png");
+        }
         /* Tarjetas de post*/
         
-        .card-body {}
+        .card {
+            height: 200px;
+            overflow: hidden;
+        }
         /* Botón de postear */
         
         .btnPost {
-            margin-left: 3%;
+            margin-left: 2%;
+        }
+        /* Botón de seguir leyendo */
+        
+        .btnSeguirLeyendo {
+            /* margin-left: 20%; */
+        }
+        /* Paginate  */
+        
+        .pagination {
+            margin-left: 4%;
+        }
+        
+        .inputInspirate {
+            width: 230px;
         }
