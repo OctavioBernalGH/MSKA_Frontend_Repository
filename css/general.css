@@ -8,29 +8,41 @@ body {
 .form-group {
     width: 20%;
 }
+
+
 /*___________________________GENERAL_________________________________________*/
+
+
 /* Color variables Branding of project */
+
 :root {
     --my-primary: #F92423;
     --my-prymary2: #21A8F0;
     --my-secondary: #FEFF00;
     --my-secondary2: #E5A800;
 }
+
+
 /*___________________________INICIO_________________________________________*/
-.img_logo{
+
+.img_logo {
     width: 40%;
     height: 50%;
     animation: scale_translate 0.7s linear forwards;
     position: absolute;
-    top: 13%; left: 50%;
+    top: 13%;
+    left: 50%;
 }
-.img_title{
+
+.img_title {
     width: 40%;
     height: 40%;
     animation: scale_translate 0.7s linear forwards;
     position: absolute;
-    top: 1%; left: 1%;
+    top: 1%;
+    left: 1%;
 }
+
 #cajitaInicioSesion {
     background-repeat: no-repeat;
     background-size: 50%;
@@ -42,7 +54,8 @@ body {
     border-style: solid;
     padding: 0.5%;
 }
-.bodySystemLogin{
+
+.bodySystemLogin {
     background-color: white;
     background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");
     background-repeat: no-repeat;
@@ -51,9 +64,11 @@ body {
     margin-bottom: 2%;
     margin-top: 30%;
 }
+
+
 /*___________________________REGISTRO_________________________________________*/
-#cajitaRegistro{
-    
+
+#cajitaRegistro {
     background-size: 50%;
     margin-right: 55%;
     margin-left: 1%;
@@ -63,13 +78,12 @@ body {
     border-style: solid;
 }
 
-
 .idImagen {
     background-image: url("paper.gif");
-    position: absolute; 
-    top: 0; 
+    position: absolute;
+    top: 0;
     left: 0;
- }
+}
 
 .div_main {
     margin-left: 20%;
@@ -86,14 +100,13 @@ body {
     margin-bottom: 2%;
     width: 100%;
     height: 100%;
-    
     /*background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");*/
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
-    
 }
-.bodySystemRegister{
+
+.bodySystemRegister {
     background-color: white;
     background-image: url("https://39975211.servicio-online.net/wp-content/uploads/2022/05/register_background.png");
     background-repeat: no-repeat;
@@ -102,6 +115,7 @@ body {
     margin-bottom: 2%;
     margin-top: 30%;
 }
+
 #flechas {
     position: absolute;
     z-index: 100;
@@ -114,9 +128,13 @@ body {
     /* float: right; */
 }
 
+
 /* _______________________________Animations_________________________________ */
+
+
 /*Logo entrance Escale and translate*/
-  @keyframes scale_translate {
+
+@keyframes scale_translate {
     0% {
         transform: translate(100%, 80%) scale(0);
     }
@@ -125,24 +143,51 @@ body {
     }
     67% {
         transform: translate(34%, 40%) scale(0.6);
-   }
-   100% {
+    }
+    100% {
         transform: translate(0%, 0%) scale(1);
-   }
+    }
 }
 
-  /*_____________________TESTING_______________________________________________________*/
-  .div_test1{
-      background-color: #FEFF00;
-      border-radius: 2%;
-      border: 3px #E5A800;
-      border-style: solid;
-      padding: 0%;
-      margin: 0%;
-  }
-  .div_test2{
+
+/*_____________________TESTING_______________________________________________________*/
+
+.div_test1 {
+    background-color: #FEFF00;
+    border-radius: 2%;
+    border: 3px #E5A800;
+    border-style: solid;
+    padding: 0%;
+    margin: 0%;
+}
+
+.div_test2 {
     background-color: #e2029c;
-    }
-    .div_test2{
-        background-color: #480ceb;
-    }
+}
+
+.div_test2 {
+    background-color: #480ceb;
+}
+
+
+/* Imagen de perfil */
+
+.imgRedonda {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 10px solid #666;
+}
+
+.container {
+    margin: 3%;
+}
+
+
+/* Cámara de fotos de la foto de perfil */
+
+#camara {
+    position: relative;
+    float: right;
+    margin-top: -100px;
+}
